@@ -11,17 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VendorprofileActivity">
+        <activity android:name=".BodywashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CheckoutActivity">
-
+        <activity android:name=".BrandsActivity">
         </activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".CheckoutforeverActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".VendorcontactActivity" />
+        <activity android:name=".VendorprofileActivity" />
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
