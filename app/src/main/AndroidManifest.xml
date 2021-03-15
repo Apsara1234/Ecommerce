@@ -11,16 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BodywashActivity">
+        <activity android:name=".QuantityActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BrandsActivity">
+        <activity
+            android:name=".CryashopActivity"
+            android:label="@string/title_activity_cryashop">
+
         </activity>
-        <activity android:name=".CheckoutforeverActivity"></activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".BankingActivity"></activity>
+        <activity android:name=".MyshippingActivity" />
+        <activity android:name=".BodywashActivity" />
+        <activity android:name=".BrandsActivity" />
+        <activity android:name=".CheckoutforeverActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".VendorcontactActivity" />
         <activity android:name=".VendorprofileActivity" />

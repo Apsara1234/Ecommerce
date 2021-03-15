@@ -2,4 +2,10 @@
     <string name="app_name">Ecommerce</string>
     <string name="facebook_app_id">577970389670970</string>
     <string name="fb_login_protocol_scheme">fb577970389670970</string>
+    <string name="title_activity_cryashop">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_mycart">My Cart</string>
+    <string name="title_account">Account</string>
+    <string name="title_wishlist">Wish Lsit</string>
 </resources>
